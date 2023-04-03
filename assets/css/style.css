@@ -245,6 +245,10 @@ p {
 
 .navbar li {
   position: relative;
+  padding:15px;
+  margin-left: 0;
+  align-items: left;
+  justify-content: center;
 }
 
 .navbar a,
@@ -252,11 +256,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  /* padding: 10px 0 10px 30px; */
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  text-align: center;
   font-weight: 500;
-  color: #7e7d7d;
+  color: orange;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -490,7 +495,7 @@ p {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 /*--------------------------------------------------------------
